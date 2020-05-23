@@ -2,8 +2,8 @@
 Dockerfile for linux build machine
 
 # Run command
-`
+```
 $ docker pull prasantjalan/linux-build
 $ docker run --rm -it --name "$(basename `pwd`)-build" -v `pwd`:/root/$(basename `pwd`) -w /root/$(basename `pwd`) prasantjalan/linux-build
 $ make <target>
-`
+```
