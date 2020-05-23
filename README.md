@@ -3,7 +3,7 @@ Dockerfile for linux build machine
 
 # Run command
 ```
-$ docker pull prasantjalan/linux-build
+$ docker pull orangeembedded/linux-build
 $ docker run --rm -it --name "$(basename `pwd`)-build" -v `pwd`:/root/$(basename `pwd`) -w /root/$(basename `pwd`) OrangeEmbedded/linux-build
 $ make <target>
 ```
